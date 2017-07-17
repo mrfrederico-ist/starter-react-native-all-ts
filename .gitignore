@@ -36,6 +36,14 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# TypeScript
+#
+dist/
+
+# Jest
+#
+.jest/
+
 # BUCK
 buck-out/
 \.buckd/

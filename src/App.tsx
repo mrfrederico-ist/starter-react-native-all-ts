@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import { StyleSheet, Text, View, Platform } from 'react-native'
 
 const platformText = { ios: 'iOS', android: 'Android', web: 'Web' }
 
-export default class ExampleApp extends Component {
+export default class ExampleApp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to React Native! ({platformText[Platform.OS]})
         </Text>
-        <Text>Open up src/App.js to start working on your app!</Text>
+        <Text>Open up src/App.tsx to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
       </View>
     )
