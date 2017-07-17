@@ -2,10 +2,8 @@
   "name": "StarterReactNativeAll",
   "version": "0.0.1",
   "description": "Starter project for react-native (web/electron/ios/android/)",
-  "engines": {
-    "node": ">=6.0.0 <7"
-  },
-  "author": "agrcrobles@gmail.com",
+  "repository": "git@github.com:mrfrederico-ist/starter-react-native-all-ts.git",
+  "engines": {},
   "license": "MIT",
   "scripts": {
     "rn-watch": "./node_modules/.bin/tsc --watch",
