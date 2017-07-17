@@ -1,9 +1,9 @@
-import * as React from 'react';
+import * as React from 'react'
 
-import { AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native'
 
-import App from './App';
+import App from './App'
 
-const renderApp = () => <App />;
+const renderApp = () => <App />
 
-AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => renderApp);
+AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => renderApp)
