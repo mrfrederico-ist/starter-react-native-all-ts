@@ -6,4 +6,4 @@ import App from './App'
 
 const renderApp = () => <App />
 
-AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => renderApp)
+AppRegistry.registerComponent('StarterReactNativeAll', () => renderApp)

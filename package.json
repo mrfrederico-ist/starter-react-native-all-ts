@@ -1,7 +1,7 @@
 {
-  "name": "react-native-web-boilerplate",
+  "name": "StarterReactNativeAll",
   "version": "0.0.1",
-  "description": "react-native-web boilerplate",
+  "description": "Starter project for react-native (web/electron/ios/android/)",
   "engines": {
     "node": ">=6.0.0 <7"
   },

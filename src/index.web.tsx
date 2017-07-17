@@ -9,7 +9,7 @@ const renderApp = () =>
     <App />
   </AppContainer>
 
-AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => renderApp)
+AppRegistry.registerComponent('StarterReactNativeAll', () => renderApp)
 
 if (module.hot) {
   module.hot.accept()
@@ -19,9 +19,9 @@ if (module.hot) {
       <App />
     </AppContainer>
 
-  AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => renderHotApp)
+  AppRegistry.registerComponent('StarterReactNativeAll', () => renderHotApp)
 }
 
-AppRegistry.runApplication('ReactNativeWebBoilerplate', {
+AppRegistry.runApplication('StarterReactNativeAll', {
   rootTag: document.getElementById('root'),
 })
