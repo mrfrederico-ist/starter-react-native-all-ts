@@ -1,29 +1,17 @@
-# React Native for Web - Stateless Boilerplate
+# React Native for Web, Desktop, Android and IOS - Stateless Boilerplate
 
 ## Overview
 
-An easy and simple way to configure `react-native-web` and `react-navigation`.
-For a thorough discussion, please read the following [blog post](https://medium.com/@locropulenton/navigating-in-all-platforms-with-react-navigation-673e9a6e963) about navigating in all platforms with react-navigation.
-
-## Checking flow for IOS platform
-
-> No Errors!
-
-## modules cross platform
-
- - [built in navigators](https://github.com/react-community/react-navigation)
- - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
- - [touchable bounce](https://github.com/grabbou/react-native-touchable-bounce)
+An easy and simple way to configure `react-native` for `web, desktop, android and ios`.
 
 ## Quick start
 ```
-git clone --depth 1 https://github.com/agrcrobles/react-native-web-boilerplate.git
+git clone --depth 1 https://github.com/mrfrederico-ist/starter-react-native-all-ts.git
+cd starter-react-native-all-ts
 ```
 
 ### Web
 ```
-cd react-native-web-boilerplate
-yarn
 yarn web
 ```
 Open `http://localhost:3000/`
@@ -31,30 +19,32 @@ Open `http://localhost:3000/`
 ### Desktop with electron
 
 ```
+yarn web
+# in another terminal
 cd electron
-npm i
-npm start
+yarn install
+yarn start
 ```
 
 ### Android
 
 ```
+yarn rn-watch
+# in another terminal
 yarn start
+# in another terminal
 yarn android
 ```
 
 ### IOS
 
 ```
+yarn rn-watch
+# in another terminal
 yarn start
+# in another terminal
 yarn ios
 ```
-
-### More information
-
- - babel preset: `babel-preset-react-native` is recommended in mobile and in web ( and it hot reloads! )
- - packager: metro bundler packager is used
- - jest: experimental
 
 ## CONTRIBUTING
 
