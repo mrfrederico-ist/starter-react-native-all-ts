@@ -1,4 +1,4 @@
-# React Native for Web, Desktop, Android and IOS - Stateless Boilerplate
+# React Native for Web, Desktop, Android and IOS - Boilerplate
 
 ## Overview
 
