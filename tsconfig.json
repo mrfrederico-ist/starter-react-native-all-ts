@@ -22,5 +22,8 @@
   "exclude": [
     "node_modules",
     "src/**/__tests__/*"
+  ],
+  "types": [
+    "webpack-env"
   ]
 }
