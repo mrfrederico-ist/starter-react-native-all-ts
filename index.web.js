@@ -1,1 +1,1 @@
-import './dist/index.web';
+import './dist/index';

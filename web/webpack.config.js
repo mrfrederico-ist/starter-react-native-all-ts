@@ -27,8 +27,6 @@ module.exports = {
         include: [
           path.resolve(__dirname, '..', 'index.web.js'),
           path.resolve(__dirname, '..', 'src'),
-          path.resolve(__dirname, '../node_modules/react-native-vector-icons'),
-          path.resolve(__dirname, '../node_modules/react-native-tab-view')
         ],
         loader: 'babel-loader?+cacheDirectory'
       },
@@ -57,8 +55,7 @@ module.exports = {
       path.join(__dirname, '..', 'node_modules')
     ],
     alias: {
-      'react-native': 'react-native-web',
-      'react-navigation': 'react-navigation/lib/react-navigation.js',
+      'react-native': 'reactxp',
     }
   }
 };

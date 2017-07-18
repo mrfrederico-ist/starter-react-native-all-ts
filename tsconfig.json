@@ -3,8 +3,9 @@
     "declaration": false,
     "noResolve": false,
     "jsx": "react",
+    "reactNamespace": "RX",
     "module": "commonjs",
-    "target": "es6",
+    "target": "es5",
     "outDir": "./dist",
     "experimentalDecorators": true,
     "sourceMap": true,
@@ -24,6 +25,6 @@
     "src/**/__tests__/*"
   ],
   "types": [
-    "webpack-env"
+    "node"
   ]
 }
