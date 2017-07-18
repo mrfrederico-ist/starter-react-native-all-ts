@@ -5,7 +5,7 @@
     "jsx": "react",
     "reactNamespace": "RX",
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "outDir": "./dist",
     "experimentalDecorators": true,
     "sourceMap": true,
@@ -23,8 +23,5 @@
   "exclude": [
     "node_modules",
     "src/**/__tests__/*"
-  ],
-  "types": [
-    "node"
   ]
 }

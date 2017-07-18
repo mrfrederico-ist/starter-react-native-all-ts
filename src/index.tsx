@@ -1,5 +1,4 @@
 import * as RX from 'reactxp'
-
 import App from './App'
 
 declare const module: any

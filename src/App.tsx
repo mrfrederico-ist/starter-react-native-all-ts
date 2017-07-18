@@ -2,7 +2,7 @@ import * as RX from 'reactxp'
 
 const platformText = { ios: 'iOS', android: 'Android', web: 'Web' }
 
-export default class ExampleApp extends RX.Component<{}, null> {
+class App extends RX.Component<{}, null> {
   render() {
     return (
       <RX.View style={styles.container}>
@@ -16,6 +16,7 @@ export default class ExampleApp extends RX.Component<{}, null> {
   }
 }
 
+// styles ============
 const styles = {
   container: RX.Styles.createViewStyle({
     flex: 1,
@@ -29,3 +30,6 @@ const styles = {
     margin: 10,
   }),
 }
+
+// ===================
+export default App

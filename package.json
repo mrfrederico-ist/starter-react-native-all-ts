@@ -1,14 +1,15 @@
 {
-  "name": "StarterReactNativeAll",
+  "name": "RXApp",
   "version": "0.0.1",
   "description": "Starter project for react-native (web/electron/ios/android/)",
   "repository": "git@github.com:mrfrederico-ist/starter-react-native-all-ts.git",
+  "main": "index.js",
   "engines": {},
   "license": "MIT",
   "scripts": {
     "rn-watch": "./node_modules/.bin/tsc --watch",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "ios": "react-native run-ios",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "android": "react-native run-android",
     "test": "jest",
     "web": "webpack-dev-server --config web/webpack.config.js"
